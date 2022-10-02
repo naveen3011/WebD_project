@@ -1,7 +1,4 @@
-## Rules  
-
-**Not accepting CPP/C dsa codes**     
-Alternative ->   
+## Rules   
 1)only contribute webd project(html,css,js..etc).   
 2)You can contribute in python and java OR
   Ask for a issue assign      
