@@ -1,1 +1,2 @@
-# WebD_project_hacktober
+# todo-list
+A pretty TODO List with Javascript
