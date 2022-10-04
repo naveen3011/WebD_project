@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workspace</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Workspace Clone -->
+
+        <a href="index.html" class="text-left ml-1">Register</a>
+        <a href="home.html" class="text-left ml-1">OrgSignIn</a>
+        <a href="login.html" class="text-left ml-1">LogIn</a>
+
+    <div class="grid place-items-center h-screen">
+        <div class="text-center">
+          <div class="inline-flex">
+            <img src="assets/slack.png" alt="slackLogo" class="object-contain h-8"/>
+            <h1 class="text-3xl font-bold">slack</h1>
+          </div>
+  
+          <div class="my-4 p-1 font-semibold">
+          <h1 class="text-3xl font-bold">Choose a workspace</h1>
+          <p class="text">We'll add the workspaces you choose to your desktop app.</p>
+
+          <div class="flex justify-between mt-5 mb-3">
+              <h3 class="text-lg m-2">None selected</h3>
+              <button class="bg-gray-300 border rounded-xs p-1 m-2 inline-flex">
+                  Open
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    class="h-5 w-5 ml-1 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+              </button>
+          </div>
+
+          <div class="border shadow border-gray-300">
+              <div class="p-2 text-gray-400">
+                  Workspaces for <span class="text-gray-900">xyz@gmail.com</span>
+              </div>
+
+              <div class="border border-gray-300 p-3 flex flex-col">
+                <div class="inline-flex px-1 pb-4">
+                    <input id="remember-me" name="remember-me" type="checkbox" class="h-4 w-4 px-2 mt-2.5 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb1ppa70DLYzLSpc-gVSJGQgmslKI_nY_Y6w&usqp=CAU" height="60px" width="60px" class="rounded-md border-1 px-2">
+                    <div class="flex flex-col justify-between ml-1.5">
+                        <span class="-ml-9">Slack </span>
+                        <p class="text-gray-400 pt-0.5 text-sm">0 members</p>
+                    </div>
+                </div>  
+                <div class="inline-flex px-1">
+                    <input id="remember-me" name="remember-me" type="checkbox" class="h-4 w-4 px-2 mt-2.5 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb1ppa70DLYzLSpc-gVSJGQgmslKI_nY_Y6w&usqp=CAU" height="60px" width="60px" class="rounded-md border-1 px-2">
+                    <div class="flex flex-col justify-between ml-1.5">
+                        <span class="-ml-9">Slack</span>
+                        <p class="text-gray-400 pt-0.5 text-sm">2 members</p>
+                    </div>
+                </div>              
+              </div>
+
+          </div>
+
+          <div class="align-center mt-4">
+            <label class="ml-2 block text-md text-blue-700">
+                Or sign into a new workspace here
+            </label>
+          </div>
+        
+          
+  
+          <div class="inline-flex relative w-full top-36 h-full text-gray-500">
+                <p class="mx-2">Privacy & Terms</p>
+                <p class="mx-2">Contact Us</p>
+                <p class="mx-2 inline-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                </svg>
+                Change region</p>
+            </div>
+  
+      </div>
+</body>
+</html>
