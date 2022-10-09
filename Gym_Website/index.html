@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+  </head>
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <style>
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+        background: url(img/bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .left {
+      position: absolute;
+      left: 34px;
+      top: 20px;
+      display: inline block;
+      /* border: 2px solid red; */
+    }
+    .left img{
+        margin-left: 34px;
+        width: 53px;
+        filter:invert(100%)
+
+    }
+    .left div{
+        text-align: center;
+        line-height: 10px;
+        font-size:22px;
+    }
+    .mid {
+      display: block;
+      width: 50%;
+      margin: 20px auto;
+      border: 2px ;
+    }
+    .navbar {
+      display: inline-block;
+      padding: 0;
+    }
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 20px 15px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        color:chocolate;
+        text-decoration:underline;
+    }
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 20px;
+      display: inline-block;
+      /* border: 2px solid blue; */
+    }
+    .btn{
+        font-family: 'Poppins', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 12px;
+        font-size:20px;
+        background: linear-gradient(225deg, #252121, #201c1c);
+    }
+    .btn:hover{
+        border-radius: 12px;
+        background: linear-gradient(225deg, #c96920, #9E4F17);
+    }
+    .container{
+        /* border: 2px solid white; */
+        margin: 60px auto;
+        backdrop-filter: blur(4px) saturate(150%);
+        -webkit-backdrop-filter: blur(10px) saturate(180%);
+        background-color: rgba(32, 31, 31, 0.75);
+        border-radius: 1px;
+        border: 1.5px solid rgba(209, 213, 219, 0.3);
+        width: 38%;
+        border-radius: 28px;
+    }
+    .form-group input{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        display: block;
+        width: 81%;
+        height: 28px;
+        border: 2px solid rgb(52, 71, 70);
+        margin: 20px auto;
+        font-size: 22px;
+        border-radius: 10px;
+        background: linear-gradient(171.1deg, #eef1f5 4.98%, #e6e9ef 94.88%);
+        box-shadow: inset 5px 5px 10px rgba(164, 171, 180, 0.75),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.75);
+    }
+    .container h1{
+        text-align: center;
+        margin: 10px 10px;
+    }
+    .container button{
+        display: block;
+        width: 58%;
+        margin: 20px auto;
+    }
+    .bmi-text {
+        color: white;
+        font-size: 2em;
+    }
+    .bmi-value {
+        color: white;
+        font-size: 3.5em;
+        text-align: center;
+    }
+    #calculator-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30em;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+
+  </style>
+
+  <body>
+    <header class="header">
+      <!-- left box for logo -->
+      <div class="left">
+          <img src="img/logo.png" alt="logo of GYM">
+          <div>FITNESS CLUB</div>
+      </div>
+      <!-- mid box for navigation bar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a id="home-page" href="#" class="active" onclick="openHomePage();return false;">Home</a></li>
+          <li><a href="aboutUs.html">About Us</a></li>
+          <li><a id="fitness-calculator-page" href="#" onclick="openFitnessPage();return false;">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- right box for buttons -->
+      <div class="right">
+          <button class="btn">Call Us Now</button>
+          <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div id="homepage" class="container">
+        <h1>Join the best gym of Delhi now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your contact number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your address">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <!-- Fitness calculator page area -->
+    <div id="calculator-page" class="container" style="display:none;">
+        <h1>Calculate you BMI</h1>
+        <form action="#" onSubmit="calculateBMI();return false;">
+            <div class="form-group">
+                <input type="text" id="height" name="height" placeholder="Enter your height (m)">
+            </div>
+            <div class="form-group">
+                <input type="number" id="weight" name="weight" placeholder="Enter your weight (kg)">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+        <!-- Result area where BMI result is shown -->
+        <div id="bmi-result" style="display:none;">
+            <p class="bmi-text">Your BMI is</p>
+            <p id="bmi-value" class="bmi-value">0</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function calculateBMI(){
+            var weight = parseInt(document.getElementById("weight").value);
+            var height = parseFloat(document.getElementById("height").value);
+            var bmi = weight / (height*height);
+            var bmiValue = document.getElementById("bmi-value");
+            bmiValue.innerText = bmi.toString();
+            document.getElementById("bmi-result").style.display = 'block';
+        }
+
+        function openFitnessPage(){
+            document.getElementById('homepage').style.display = 'none';
+            document.getElementById('calculator-page').style.display = 'flex';
+            document.getElementById("fitness-calculator-page").classList.add("active");
+            document.getElementById("home-page").classList.remove("active");
+        }
+
+        function openHomePage(){
+            document.getElementById('calculator-page').style.display = 'none';
+            document.getElementById('homepage').style.display = 'block';
+            document.getElementById("home-page").classList.add("active");
+            document.getElementById("fitness-calculator-page").classList.remove("active");
+        }
+        const ticketElm = document.getElementById("homepage");
+        const { x, y, width, height } = ticketElm.getBoundingClientRect();
+        const centerPoint = {
+        x: x + width / 2,
+        y: y + height / 2,
+        };
+
+        ticketElm.addEventListener("mousemove", (e) => {
+        const degreeX = (e.clientY - centerPoint.y) * 0.008;
+        const degreeY = (e.clientX - centerPoint.x) * -0.008;
+        ticketElm.classList.add("stop");
+        ticketElm.style.transform = `perspective(1000px) rotateX(${degreeX}deg) rotateY(${degreeY}deg)`;
+        });
+        ticketElm.addEventListener("mouseleave", () => {
+        ticketElm.classList.remove("stop");
+
+        ticketElm.style.transform = `perspective(1000px) rotateX(${0}deg) rotateY(${0}deg)`;
+        });
+    </script>
+    </body>
+</html>
