@@ -38,7 +38,7 @@ This repository is encourage people to contribute to open source throughout octo
 - Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/durgesh2001/Hacktoberfest_2022.git
+git clone https://github.com/naveen3011/WebD_project_hacktober2022.git
 ```
 
 - Create a branch
