@@ -1,0 +1,7 @@
+.chessbrd {
+    width: 160px;
+    height: 160px;
+    margin: 25% auto;
+    border: 2px solid black;
+  }
+  
