@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Zomato</title>
+         <link rel="window icon" href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png" type="image">
+         <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <!---header -->
+    <header>  
+        <div class = "nav">
+            <p> GET THE APP</p>
+        </div>
+        <div>
+            <ul class = "nav-bar">
+                <li>Add Restaurant</li>
+                <li>Log in</li>
+                <li>Sign up</li>
+            </ul>    
+        </div>   
+        <div class ="head"> 
+            <img class = "logo" src=" https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="image">
+            <h3>Discover the best food & drinks in Delhi NCR</h3>
+            <div class="search">
+                <div class="search-item">
+                    <!--for icons-->
+                    <i class ="fa fa-map-marker"></i> 
+                    <p>Ywca, 1, Ashoka Rd, Hanu</p>       
+                </div>
+                <div class = "search-item">
+                    <i class="fas fa-search"></i>
+                    <input type =" text" placeholder="Search for restaurant, cuisine or a dish">
+                </div>
+            </div>
+            <div class ="header-image">
+                <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt=""> 
+            </div>       
+        </div>
+    </header>
+
+    <!--section 1-->
+    <section class="section-1">
+        <div class="section-1-item">
+            <div class="items-details"><p>Order Food Online</p></div>
+            <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
+            " alt="">
+        </div>
+        <div class="section-1-item">
+            <div class="items-details"><p>Dining Out</p></div>
+            <img src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
+            " alt="">
+        </div>
+        <div class="section-1-item">
+            <div class="items-details"><p>Nightlife & Club</p></div>
+            <img src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
+            " alt="">
+        </div>
+
+    </section>
+
+    <!--SECTION 2-->
+    <section class="section-2">
+        <div class="section-2-heading">
+            <p>Popular localities in and around Delhi NCR</p>
+        </div>
+        <div class="section-2-container">
+            <div class="section-2-items">
+                <div class="section-2-item">
+                    <p class="item-head">Cannaught Place</p>
+                    <p class="item-subhead">388 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <p class="item-head">Sector 29</p>
+                    <p class="item-subhead">108 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <p class="item-head">Sector 19</p>
+                    <p class="item-subhead">38 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <p class="item-head">Sector 79</p>
+                    <p class="item-subhead">188 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <p class="item-head">Sector 129</p>
+                    <p class="item-subhead">38 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <p class="item-head">Sector 63</p>
+                    <p class="item-subhead">123 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <p class="item-head">Golf Course</p>
+                    <p class="item-subhead">224 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <p class="item-head">DLF Phase 4</p>
+                    <p class="item-subhead">788 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <p class="item-head">Cyber City</p>
+                    <p class="item-subhead">258 Places</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- SECTION 3 -->
+     <section class="section-3">
+        <div class="section-3-container">
+            <div class="section-3-img">
+                <img src="https://b.zmtcdn.com/data/o2_assets/a500ffc2ab483bc6a550aa635f4e55531648107832.png" alt="">
+            </div>
+            <div class="section-3-content">
+                <h1>Get the Zomato App</h1>
+                <p>
+                    Download the app from
+                </p>
+                <div class="section-3-download">
+                    <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">    
+                    <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <code>
+            <h1>Made with ❤️ by Aditya Maheshwari</h1>
+        </code>    
+    </footer>
+</body>
+
+</html>
