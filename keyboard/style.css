@@ -1,0 +1,77 @@
+ body {
+     /* background-color: rgba(29, 186, 244, 0.882); */
+     background-image: url("https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&w=600");
+ }
+
+ .container {
+     margin: 160px 0 0 200px;
+ }
+
+ .row {
+     width: 100%;
+     height: 60px;
+ }
+
+ .one,
+ .two,
+ .three,
+ .four,
+ .five {
+     margin: 10px 0 0 0;
+ }
+
+ button {
+     color: rgb(16, 16, 16);
+     width: 55px;
+     height: 55px;
+     border: none;
+     background: rgb(177, 81, 167);
+     box-shadow: 5px 5px 10px #474343, -5px -5px 10px #FFF;
+     font: size 20px;
+     border-radius: 20%;
+ }
+
+ button:active {
+     box-shadow: 1px 1px 2px #fff8f8, -1px -1px 2px #474343;
+
+ }
+
+ .back {
+     width: 115px;
+     border-radius: 10px;
+ }
+
+ .tab {
+     width: 85px;
+     border-radius: 10px;
+ }
+
+ .slace {
+     width: 85px;
+     border-radius: 10px;
+ }
+
+ .cap {
+     width: 100px;
+     border-radius: 10px;
+ }
+
+ .ent-btn {
+     width: 135px;
+     border-radius: 10px;
+ }
+
+ .shift {
+     width: 150px;
+     border-radius: 10px;
+ }
+
+ .other {
+     width: 78px;
+     border-radius: 9px;
+ }
+
+ .space {
+     width: 400px;
+     border-radius: 10px;
+ }
