@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+   font-family: sans-serif; 
+}
+.app-container{
+  height: 600px;
+  width: 350px;
+  background-image: linear-gradient(#580e8f,#9200ff);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute; 
+}
+.top-box{
+  height: 150px;
+  background-color: #9100fb;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+.top-box p
+{
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+}
+.left-icon{
+  float: left;
+  margin-left: 30px;
+}
+.right-icon{
+  float: right;
+  margin-right: 30px;
+} 
+.middle-box{
+  height: 150px;
+  background-image: linear-gradient(#580e8f,#9200ff);
+  margin: -70px 30px 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.middle-box h1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 50px;
+  font-weight: normal;
+}
+.middle-box h1 span
+{
+ font-size: 20px;
+ margin-left: 5px;
+ bottom: 18px;
+ position: relative;
+}
+.payment-option-btn
+{
+  color: #fff;
+  margin: 5px 30px;
+  height: 30px;
+  width: 290px;
+  background-color: #9100fd;
+  border: none;
+  cursor: pointer;
+}
+.card-details
+{
+   background: #fff ;
+   color: #555;
+   margin: 10px 30px;
+   padding: 10px;
+}
+.card-details p
+{
+  font-size: 14px;
+}
+.card-details label
+{
+  font-size: 10px;
+  line-height: 20px;
+}
+.card-num-field-group
+{
+  margin-top: 10px;
+}
+.date-field-group
+{
+  margin-top: 10px;
+  display: inline-block;
+}
+.cvc-field-group
+{
+  margin-top: 10px;
+  display: inline-block;
+  float:right;
+}
+.name-field-group
+{
+  margin-top: 10px;
+}
+.card-num-field, .name-field-group
+{
+  width: 265px;
+}
+.date-field, .cvc-field
+{
+ width: 80px;
+}
+.card-details input
+{
+  border: 1px solid #ccc;
+  height: 22px;
+  padding: 5px;
+  font-size: 10px;
+}
+.card-details input::placeholder
+{
+  color: #ccc;
+}
+.pay-btn
+{
+  width: 270px;
+  color: #fff;
+  margin-top: 4px;
+  height: 30px;
+  background-color: #9100fd;
+  border: none;
+  cursor: pointer; 
+}
