@@ -1,0 +1,360 @@
+
+            html {
+
+                width: 100vw;
+
+                height: 100vh;
+
+                margin: 0;
+
+                overflow: hidden;
+
+                background-image: radial-gradient(farthest-corner at 10% 100%, #000428, #0c5696ef);
+
+            }
+
+           
+
+            .container {
+
+                padding: 15vh;
+
+            }
+
+           
+
+            .header {
+
+                text-align: center;
+
+                display: flex;
+
+                align-items: center;
+
+                flex-direction: column;
+
+                justify-content: center;
+
+                /* padding-bottom: 6vh; */
+
+            }
+
+           
+
+            .title {
+
+                color: #c2bcbc;
+
+                font-size: 8vh;
+
+            }
+
+           
+
+            .contents {
+
+                color: #c2bcbc;
+
+                font-size: 6vh;
+
+                display: none;
+
+                text-align: center;
+
+                align-items: center;
+
+                flex-direction: column;
+
+                justify-content: center;
+
+            }
+
+           
+
+            input {
+
+                padding: 1px;
+
+                width: 10vh;
+
+                height: 10vh;
+
+                border: 0;
+
+                margin: 0;
+
+                outline: 0;
+
+                background: transparent;
+
+                border-bottom: 3px solid #000428;
+
+                caret-color: transparent;
+
+                padding-top: 5vh;
+
+            }
+
+           
+
+            .input {
+
+                display: none;
+
+            }
+
+           
+
+            .input-container {
+
+                display: block;
+
+            }
+
+           
+
+            .gucess {
+
+                color: #c2bcbc;
+
+                display: none;
+
+                padding: 5vh;
+
+                font-size: 6vh;
+
+                position: fixed;
+
+                bottom: 0;
+
+                left: 0;
+
+            }
+
+           
+
+            .btn-container {
+
+                margin: 0 auto;
+
+                display: flex;
+
+                justify-content: center;
+
+            }
+
+           
+
+            .btn {
+
+                position: relative;
+
+                display: inline-flex;
+
+                width: 180px;
+
+                height: 55px;
+
+                margin: 0 15px;
+
+                perspective: 1000px;
+
+            }
+
+           
+
+            .btn a {
+
+                font-size: 30px;
+
+                letter-spacing: 1px;
+
+                transform-style: preserve-3d;
+
+                transform: translateZ(-25px);
+
+                transition: transform .25s;
+
+                font-family: 'Montserrat', sans-serif;
+
+            }
+
+           
+
+            .btn a:before,
+
+            .btn a:after {
+
+                position: absolute;
+
+                content: "START";
+
+                height: 55px;
+
+                width: 180px;
+
+                display: flex;
+
+                align-items: center;
+
+                justify-content: center;
+
+                box-sizing: border-box;
+
+                border-radius: 25px;
+
+            }
+
+           
+
+            .btn a:after {
+
+                content: "GAME"
+
+            }
+
+           
+
+            .btn1 {
+
+                padding: 10vh;
+
+            }
+
+           
+
+            .btn1 a::before {
+
+                content: "RESTART";
+
+            }
+
+           
+
+            .btn a:before {
+
+                color: #c2bcbc;
+
+                transform: rotateY(0deg) translateZ(25px);
+
+            }
+
+           
+
+            .btn a:after {
+
+                color: #c2bcbc;
+
+                margin: 0;
+
+                transform: rotateX(90deg) translateZ(25px);
+
+            }
+
+            
+
+            .btn a:hover {
+
+                transform: translateZ(-25px) rotateX(-90deg);
+
+            }
+
+           
+
+            .result {
+
+                display: none;
+
+            }
+
+           
+
+            .wrong {
+
+                display: "block";
+
+            }
+
+           
+
+            .input-container {
+
+                display: none;
+
+            }
+
+           
+
+            .result {
+
+                padding-top: 5vh;
+
+            }
+
+           
+
+            .wrong {
+
+                display: "flex";
+
+                text-align: center;
+
+                color: #2167cf;
+
+                font-size: 12vh;
+
+            }
+
+           
+
+            .words {
+
+                font-size: 5vh;
+
+                color: #c2bcbc;
+
+                text-align: center;
+
+            }
+
+           
+
+            .validate {
+
+                color: #ce4343;
+
+                bottom: 1;
+
+                position: fixed;
+
+                right: 1;
+
+                font-size: 4vh;
+
+                text-align: center;
+
+            }
+
+           
+
+            @media screen and (max-device-width: 480px) {
+
+                .container {
+
+                    padding: 0vh;
+
+                }
+
+                .words {
+
+                    font-size: 4vh;
+
+                }
+
+                .contents {
+
+                    font-size: 4vh;
+
+                }
+
+            }
