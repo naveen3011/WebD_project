@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+.connected-container{
+    margin: 3rem 5rem 3rem 5rem;
+    display: grid;
+    grid-template-columns: 38% 60%;
+    gap: 2%;
+}
+
+.notifications{
+    border: 1px solid rgb(166, 166, 166);
+    box-shadow: 8px 8px 8px 8px #c2c1c1;
+    padding: 1rem;
+}
+
+.notifications-head{
+    display: grid;
+    grid-template-columns: 60% 38%;
+    gap: 2%;
+    margin-bottom: 1rem;
+}
+
+.Noti{
+    text-align: left;
+}
+
+.markasread{
+    text-align: right;
+    color: #1663be;
+}
+
+.head{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.notifications-info{
+    margin-top: 0.2rem;
+}
+
+.profileDiv{
+    display: grid;
+    grid-template-columns: 10% 86%;
+    gap: 4%;
+    padding: 1rem;
+}
+
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.notifications-subject{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.messageDiv{
+    height: 50px;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 1442px) {
+    .connected-container{
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .connected-container{
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .profileDiv{
+        display: grid;
+        grid-template-columns: 20% 76%;
+        gap: 4%;
+        padding: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 615px) {
+    .connected-container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .notifications-head{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .Noti{
+        text-align: center;
+    }
+    
+    .markasread{
+        text-align: center;
+    }
+    .profileDiv{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        padding: 1rem;
+        text-align: center;
+    }
+}

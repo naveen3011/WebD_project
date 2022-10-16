@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+#story{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5%;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.about{
+    /* border: 1px solid black; */
+    margin-left: 80px;
+    width: 70%;
+    padding: 30px;
+}
+
+
+.story-heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 38px;
+}
+
+.about-tutor-master{
+    line-height: 26px;
+}
+
+.checklist{
+    list-style: none;
+    padding: 0;
+}
+
+.checklist li:before{
+    content: '✓';
+    margin-right: 10px;
+    color: #1663be;
+    font-weight: bolder;
+}
+
+.detail-button{
+    border: none;
+    background-color: #1663be;
+    color: #fff;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image-section{
+    /* border: 1px solid black; */
+    margin-right: 50px;
+    width: 70%;
+}
+
+.image-container{
+    border: 3px solid #1663be;
+    width: 100%;
+    height: 80%;
+    margin: 30px auto 0 auto;
+    border-top-right-radius: 5rem;
+    position: relative;
+}
+
+.tutoring-image{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 5rem;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+
+/** media queries **/
+
+@media screen  and (max-width: 1000px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    #story{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }    
+
+    .about{
+        /* border: 1px solid black; */
+        width: 70%;
+        margin: 30px auto 10px auto;
+    }
+
+    .detail-button{
+        width: 70%;
+    }
+
+    .image-section{
+        /* border: 1px solid black; */
+        margin: 0 auto 10px auto;
+        width: 80%;
+    }
+    
+    .image-container{
+        border: 3px solid #1663be;
+        width: 80%; 
+        height: 30vh;
+        margin: 10px auto 10px auto;
+        border-top-right-radius: 5rem;
+        position: relative;
+    }
+    
+    .tutoring-image{
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 5rem;
+        object-fit: cover;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    } 
+}
