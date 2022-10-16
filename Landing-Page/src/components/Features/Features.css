@@ -1,0 +1,45 @@
+#features{
+    margin: 7rem auto 6rem auto;
+}
+
+.features-container{
+    /* border: 1px solid black; */
+    margin: 3rem 5rem 3rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.features-item{
+    /* border: 1px solid black; */
+    color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+}
+
+.features-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .features-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .features-container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}

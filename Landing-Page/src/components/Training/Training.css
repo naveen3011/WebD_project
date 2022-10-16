@@ -1,0 +1,41 @@
+#training-section{
+    margin: 7rem 5rem 6rem 5rem;
+}
+
+.heart-image-div{
+    /* border: 1px solid black; */
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.heartImage{
+    width: 80%;
+    object-fit: cover;
+    border: 3px solid #1663be;
+}
+
+@media screen and (max-width: 1024px) {
+    #training-section{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .heartImage{
+        width: 100%;
+        object-fit: cover;
+        border: 3px solid #1663be;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #training-section{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .heartImage{
+        width: 100%;
+        object-fit: cover;
+        border: 3px solid #1663be;
+    }
+}
+

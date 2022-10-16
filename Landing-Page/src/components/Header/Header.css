@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+.banner-image{
+    background-image: url("/src/assets/backgroundImage.jpg");
+    background-size: cover;
+}
+
+.brandSubHeading{
+    font-size: 15px;
+}
+
+.nav-item{
+    margin-right: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button{
+    width: 50%;
+    font-size: 15px;
+}
+
+.navbarBrand{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.mainHead{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    line-height: 80px;
+}
+
+.subHead{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 1024px){
+    .content{
+        margin-top: 6rem;
+        width: 90%;
+    }
+    .mainHead{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .subHead{
+        font-size: 1.5rem;
+    }
+    .button{
+        width: 10%;
+        font-size: 15px;
+        margin-top: 0.5rem;
+        padding: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .content{
+        margin-top: 11rem;
+        width: 90%;
+    }
+    .mainHead{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    .subHead{
+        font-size: 1rem;
+    }
+    .button{
+        width: 15%;
+        font-size: 15px;
+        margin-top: 0.5rem;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .content{
+        margin-top: 11rem;
+        width: 90%;
+    }
+    .mainHead{
+        line-height: 30px;
+        font-size: 1.5rem;
+    }
+    .subHead{
+        font-size: 1rem;
+    }
+    .button{
+        width: 20%;
+        font-size: 15px;
+        margin-top: 0.5rem;
+        padding: 0;
+    }
+}

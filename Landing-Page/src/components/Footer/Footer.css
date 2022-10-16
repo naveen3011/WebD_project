@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+.footer{
+    background: #02234ee8;
+    color: #fff;
+}
+
+.footer-column{
+    /* border: 1px solid black; */
+    padding: 4rem;
+}
+
+.footer h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.footer p{
+    margin-top: 2rem;
+    font-size: 15px;
+    line-height: 26px;
+    width: 80%;
+}
+
+.footer h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.share{
+    margin-top: 2rem;
+}
+
+.social-links{
+    margin-right: 1rem;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.links{
+    margin-top: 1.5rem;
+}
+
+.footer-link{
+    display: block;
+    padding:0.5rem 0;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-link:hover{
+    color: antiquewhite;
+}
+
+
+@media screen and (max-width: 770px) {
+    .footer-column{
+        text-align: center;
+        padding: 2rem;
+    }
+    .footer p{
+        width: 70%;
+        margin: 1.5rem auto 1.5rem auto;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .footer-column{
+        text-align: center;
+        padding: 2rem;
+    }
+    .footer p{
+        width: 70%;
+        margin: 1.5rem auto 1.5rem auto;
+    }
+}
