@@ -1,0 +1,39 @@
+#navbar{
+    flex-direction: column;
+    font-size:20px;
+}
+
+/*hello*/
+#home{
+    height:550px;
+
+    }
+#home::before{
+        height:600px;
+    
+        }
+#home h1{
+font-size:5rem;
+}
+#home p{
+    font-size:20px;
+}
+#services{
+flex-direction:column;
+}
+#client::before{
+    height:35%;
+    
+}
+#client img{
+    width: 50px;
+    padding:5px;
+    height: 50px;
+}
+#so{
+   flex-flow: 3px;
+    flex-wrap: wrap;
+   }
+#cont{
+
+}
