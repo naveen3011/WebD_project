@@ -1,0 +1,45 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #ffeaa7;
+}
+table{
+
+    margin: auto;
+    padding: 2%;
+    background-color: #0984e3;
+}
+#number{
+    background-color: #fab1a0;
+    height: 100%;
+    width:100%;
+    font-size: 20px;
+}
+
+#equalsto{
+    width: 100%;
+    height: 100%;
+    background-color: #55efc4;
+}
+#operator{
+    background-color: #d63031;
+    height: 100%;
+    width:100%;
+}
+
+#result{
+    color: black;
+    height: 100%;
+    width:100%;
+    background-color: #dfe6e9;
+    font-size: 40px;
+    overflow: scroll;
+}
+td{
+    height: 10vh;
+    width: 15vw;
+    
+}
+
+

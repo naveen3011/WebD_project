@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table class="calculator" border="2px solid black">
+        <tr class="element">
+            <td id="screen" colspan="3"><input type="text" id="result" style="background-color:#dfe6e9"></td>
+            <td id="clear" ><input type="button" id="number" value="C" onclick="clearscreen()"
+                    style="background-color:#6c5ce7"></td>
+        </tr>
+        <tr class="element">
+            <td><input type="button" value="1" id="number" onclick="display('1')"></td>
+            <td><input type="button" value="2" id="number" onclick="display('2')"></td>
+            <td><input type="button" value="3" id="number" onclick="display('3')"></td>
+            <td><input type="button" value="+" id="operator" onclick="display('+')"></td>
+        </tr>
+        <tr class="element">
+            <td><input type="button" value="4" id="number" onclick="display('4')"></td>
+            <td><input type="button" value="5" id="number" onclick="display('5')"></td>
+            <td><input type="button" value="6" id="number" onclick="display('6')"></td>
+            <td><input type="button" value="-" id="operator" onclick="display('-')"></td>
+        </tr>
+        <tr class="element">
+            <td><input type="button" value="7" id="number" onclick="display('7')"></td>
+            <td><input type="button" value="8" id="number" onclick="display('8')"></td>
+            <td><input type="button" value="9" id="number" onclick="display('9')"></td>
+            <td><input type="button" value="*" id="operator" onclick="display('*')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." id="number" onclick="display('.')"></td>
+            <td><input type="button" value="0" id="number" onclick="display('0')"></td>
+            <td><input type="button" value="=" id="equalsto" onclick="final()"></td>
+            <td><input type="button" value="/" id="operator" onclick="display('/')"></td>
+        </tr>
+
+    </table>
+    <script src="index.js"></script>
+</body>
+
+</html>
