@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.boxes{
+    padding: 20px;
+    width:150px;
+    height: 60px;
+    margin: 20px;
+    background-color: rgb(32, 139, 32);
+    color: white;
+    font-size: 20px;
+    
+}
+
+button{
+    cursor: pointer;
+}
