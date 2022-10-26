@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>Multiplication Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--css-->
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+
+    <body>
+        <div id="container">
+            <!-- title-->
+            <h1 class="gametitle">Multiplication Game</h1>
+            <!--game board-->
+            <div id="board">            
+                <div id="right">Right</div>
+                <div id="wrong">Try again</div>
+                <div id="score">Score: <span id="scoreNumber">0</span></div>
+                <div id="problem"></div> 
+                <div id="instruction"></div>
+                <div id="answers">
+                    <div id="answer1"></div>
+                    <div id="answer2"></div>
+                    <div id="answer3"></div>
+                    <div id="answer4"></div>     
+                </div>
+                <div id="start">Start Game</div>
+
+                <div id="time">Time: <span id="remainingTime">55</span> sec</div>
+                <div id="gameover">GAME OVER Your score: <span id="finalscore">0</span></div>            
+            </div> 
+
+            <!--audio files-->
+            <div class="player">      
+                <audio id="startgame" autoplay controls loop>
+                    <source src="audio/start.mp3">
+                    <source src="audio/start.ogg">
+                </audio>
+            </div>
+            <audio id="lost">
+                <source src="audio/error.mp3">
+                <source src="audio/error.ogg">
+            </audio>
+            <audio id="win">
+                <source src="audio/correct.mp3">
+                <source src="audio/correct.ogg">
+            </audio>
+            <audio id="final">
+                <source src="audio/end.mp3">
+                <source src="audio/end.ogg">
+            </audio>
+        </div>
+
+        <!--JavaScript-->
+        <script src="javascript.js"></script>
+
+    </body>
+</html>
