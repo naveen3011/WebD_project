@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T-Kart</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f692d869fc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header id="header">
+        <div class="logo">
+          <img id="header-img" src="logo.png" alt="T-Kart" />
+          <h1>T-Kart</h1>
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#try-ons">Try-Ons</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container"></div>
+      <section id="tshirt">
+        <h2>Comfy and Cool Tshirts</h2>
+        <form id="form" action=" https://www.freecodecamp.com/email-submit">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Let's Buy" class="btn" />
+        </form>
+      </section>
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon">
+              <i class="fa-solid fa-3x fa-shirt"> </i>
+            </div>
+            <div class="desc">
+              <h2>Comfy T-shirts</h2>
+              <p>
+                T-kart uses premium cotton to provide comfy t-shirts with soft
+                material.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid">
+            <div class="icon">
+              <i class="fa-solid fa-3x fa-truck"></i>
+            </div>
+            <div class="desc">
+              <h2>Fast Shipping</h2>
+              <p>
+                We make sure you recieve your order before delivery date. We
+                also provide free returns if you are not satisfied.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid">
+            <div class="icon">
+              <i class="fa-solid fa-3x fa-splotch"></i>
+            </div>
+            <div class="desc">
+              <h2>Quality Assurance</h2>
+              <p>
+                For every purchase you make, we will ensure there are no defects
+                or damages and you will recieve product same as you ordered.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="try-ons">
+          <iframe
+            id="video"
+            height="315"
+            width="415"
+            src="https://www.youtube.com/embed/IeGTVv9Oqvs"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section id="pricing">
+          <div class="products" id="types">
+            <div class="neck-type">Round Neck</div>
+            <img src="round.png" alt="" />
+            <h2>$10</h2>
+            <ol>
+              <li>100% Cotton</li>
+              <li>Machine-Wash</li>
+              <li>Regular Fit</li>
+              <li>Knitted</li>
+            </ol>
+            <button class="button">Select</button>
+          </div>
+
+          <div class="products" id="types">
+            <div class="neck-type">V-Neck</div>
+            <img src="v.png" alt="" />
+            <h2>$12</h2>
+            <ol>
+              <li>100% Cotton</li>
+              <li>Solid</li>
+              <li>Loose Fit</li>
+              <li>Knitted</li>
+            </ol>
+            <button class="button">Select</button>
+          </div>
+
+          <div class="products" id="types">
+            <div class="neck-type">High Neck</div>
+            <img src="high.png" alt="" />
+            <h2>$15</h2>
+            <ol>
+              <li>50% Cotton 50% Polyster</li>
+              <li>Soft</li>
+              <li>Skinny Fit</li>
+              <li>Knitted</li>
+            </ol>
+            <button class="button">Select</button>
+          </div>
+        </section>
+
+        <footer>
+          <ul>
+            <li>
+              <a href="#">Privacy</a>
+            </li>
+            <li>
+              <a href="#">Terms</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <span>Copyright 2020, T-Kart</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
