@@ -1,0 +1,60 @@
+const data = [
+  {
+    id: 1,
+    name: "Aakash General Store",
+    area: "pune",
+    category: "grocery",
+    openDate: "2022-05-12",
+    closeDate: "2022-05-30",
+  },
+  {
+    id: 2,
+    name: "Vinod Medical Store",
+    area: "pune",
+    category: "chemist",
+    openDate: "2022-05-12",
+    closeDate: "2022-05-15",
+  },
+  {
+    id: 3,
+    name: "Krishna stationery",
+    area: "thane",
+    category: "stationery",
+    openDate: "2022-05-30",
+    closeDate: "2022-05-31",
+  },
+  {
+    id: 4,
+    name: "Khan Meat",
+    area: "nashik",
+    category: "butcher",
+    openDate: "2022-05-12",
+    closeDate: "2022-05-15",
+  },
+  {
+    id: 5,
+    name: "Love Bakery",
+    area: "nagpur",
+    category: "baker",
+    openDate: "2022-05-12",
+    closeDate: "2022-05-15",
+  },
+  {
+    id: 6,
+    name: "All grocery",
+    area: "ahmednagar",
+    category: "grocery",
+    openDate: "2022-05-20",
+    closeDate: "2022-05-30",
+  },
+  {
+    id: 7,
+    name: "Krishna stationery",
+    area: "mumbai suburban",
+    category: "stationery",
+    openDate: "2022-05-30",
+    closeDate: "2022-05-31",
+  },
+];
+
+export default data;
