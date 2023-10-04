@@ -1,8 +1,8 @@
-# Hacktoberfest_2022
+# Hacktoberfest_2023
 
 This repository is encourage people to contribute to open source throughout october.
 
-![ Hacktoberfest_2022](https://user-images.githubusercontent.com/60610128/193233241-0ed224b3-d193-4fd0-9ecc-8420621c0029.png)
+![ Hacktoberfest_2023](https://user-images.githubusercontent.com/60610128/193233241-0ed224b3-d193-4fd0-9ecc-8420621c0029.png)
 ## Rules   
 1)only contribute webd project(html,css,js..etc).   
 2)You can contribute in python and java OR
@@ -38,7 +38,7 @@ This repository is encourage people to contribute to open source throughout octo
 - Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/naveen3011/WebD_project_hacktober2022.git
+git clone https://github.com/naveen3011/WebD_project_hacktober2023.git
 ```
 
 - Create a branch
