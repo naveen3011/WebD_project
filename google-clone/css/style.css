@@ -1,0 +1,96 @@
+body{
+    background-image: url("b2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    animation: back 30s;
+    animation-iteration-count: infinite;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+    
+}
+#google{
+    width:300px;
+}
+#search{
+    width: 33em;
+    border-radius: 50px;
+    height: 39px;
+    border: none;
+    outline: none;
+    padding-left: 35px;
+    font-size: 15px;
+    
+}
+#search:hover{
+box-shadow: 5px 5px 51px rgba(128, 128, 128, 0.451);
+}
+
+.searc{
+    position:absolute;
+    margin-top: 13px;
+    margin-left: 13px;
+}
+.icon{
+    width:2em;
+    height:2em;
+    border:5px solid white;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+.iconcont{
+width: 6em;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+border-radius: 3px;
+}
+.iconcont:hover{
+    background-color: rgba(255, 250, 250, 0.175);
+}
+a{
+    text-decoration: none;
+}
+.name{
+    color:white;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 13px;
+}
+
+.text{
+    position: fixed;
+bottom: 0%; 
+  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+  font-size: 12px;
+   margin-left: 10px;
+   text-decoration: underline;
+}
+ul{
+    list-style-type:none;
+    color: white;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    
+}
+li{
+    padding:0px 10px 0px 10px;
+    font-size: 15px;
+}
+li:hover{
+    text-decoration: underline;
+}
+.nav{
+    position: fixed;
+    right: 40px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}

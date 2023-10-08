@@ -1,0 +1,89 @@
+.catalogue-vertical-component {
+    width: 100%;
+    padding: 25px 10px;
+}
+
+.component-elevation {
+    width: 95%;
+    min-height: 200px;
+}
+
+.store-name {
+    font-size: 1.2rem;
+    color: rgb(92, 92, 92);
+    text-align: left;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+.store-status {
+    color: red;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.Open {
+    color: green;
+    ;
+}
+
+.Closed {
+    color: red;
+}
+
+.store-type-location-container {
+    margin-top: 25px;
+}
+
+.store-data {
+    font-size: 0.9rem;
+    color: rgb(114, 114, 114);
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.store-image {
+    width: 60%;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-top: 10px;
+}
+
+.catalogue-vertical-component-right {
+    height: 100%;
+    padding: 20px 0px;
+    text-align: right;
+    background-color: rgb(250, 250, 250);
+}
+
+.catalogue-vertical-component {
+    text-transform: capitalize !important;
+}
+
+.store-icon-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 18px;
+}
+
+.delete-store-icon {
+    color: rgb(150, 150, 150);
+}
+
+.update-store-icon {
+    color: rgb(150, 150, 150);
+}
+
+@media screen and (max-width:599px) {
+    .component-elevation {
+        display: block;
+        margin: auto;
+    }
+}

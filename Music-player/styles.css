@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+#title{
+    text-align: center;
+    font-family: noto;
+}
+#music_container{
+    margin-right: 50%;
+    margin-left: 50%;
+    width: 30rem;
+    height: 25rem;
+    box-shadow: 0 10px 10px 0 rgb(19, 17, 17);
+    border-radius: 30px;
+}
+#artist{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+}
+.img_container{
+    text-align: center;
+    border-radius: 20%;
+    border: 0ch;
+    margin-top: 10px;
+    width: 25rem;
+    height: 15rem;
+
+}
+.img_container img
+{
+    border-radius: 30px;
+    width: 19rem;
+    height: 15rem;
+    border: 0px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.music_controls{
+    text-align: center;
+    font-size: 35px;
+}
+.playbutton{
+    background-color: black;
+    border-radius: 50%;
+    margin: 20px;
+    
+}
+#play{
+    color: rgb(10, 10, 10);
+    margin: 15px;
+}

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+
+
+.pimg1 {
+    background-image: url("https://images.pexels.com/photos/6068507/pexels-photo-6068507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* min-height: 800px; */
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg2 {
+    background-image: url("https://media.istockphoto.com/photos/india-gate-picture-id510795912?b=1&k=20&m=510795912&s=170667a&w=0&h=XLp6vDILq-QQ3-q3yh6YrGY-jxvWVfBXvs50izSNMzU=");
+    min-height: 400px;
+    height: 100vh;
+    /* width: 100vh; */
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg3 {
+    background-image: url("https://media.istockphoto.com/photos/palace-of-the-winds-against-sun-jaipur-india-picture-id868604538?b=1&k=20&m=868604538&s=170667a&w=0&h=D-vtVZWfpObSI-lXjasTLjNeJaWFf5aIX2AI0wm3nkM=");
+    /* min-height: 100%; */
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textBg {
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light {
+    background-color: #282e34;
+    color: #ddd;
+
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
